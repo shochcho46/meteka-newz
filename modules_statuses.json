@@ -1,0 +1,12 @@
+{
+    "Auth": true,
+    "Menu": true,
+    "Seo": true,
+    "Websetting": true,
+    "Website": true,
+    "User": true,
+    "Post": true,
+    "Permission": true,
+    "Gallery": true,
+    "Advertisement": true
+}

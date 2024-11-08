@@ -1,0 +1,15 @@
+.navbarzindex {
+    z-index: 3;
+}
+
+.sidebarzindex {
+    z-index: 13;
+}
+
+.menuButton {
+    color: black;
+}
+
+.menuButton:hover {
+    color: #ef3c40
+}

@@ -1,0 +1,11 @@
+<script src="{{ asset('js/jquery.js') }}" ></script>
+<script src="{{ asset('js/app.js') }}" ></script>
+<script src="{{ asset('web/js/moment.min.js') }}" ></script>
+<script src="{{ asset('web/js/polyfill.js') }}" ></script>
+<script src="{{ asset('fontawesome/js/all.min.js') }}" ></script>
+<script src="{{ asset('web/js/main.js') }}" ></script>
+<script src="{{ asset('datepicker/js/bootstrap-datepicker.min.js') }}" ></script>
+<script src="{{ asset('js/frontend.js') }}" ></script>
+<script src="{{ asset('jqueryui/external/jquery/jquery.js') }}" ></script>
+<script src="{{ asset('jqueryui/jquery-ui.min.js') }}" ></script>
+<script src="{{ asset('datepicker/js/bootstrap-datepicker.min.js') }}" ></script>

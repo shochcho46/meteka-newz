@@ -1,0 +1,266 @@
+.textStyle {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.headNewsBox {
+    height: 100%;
+    width: 100%;
+}
+
+.headNewsBox img {
+    /* min-width: 100%;*/
+    min-height: 300px;
+    width: 100%; /* Image fills the full width of the container */
+    max-height: 600px; /* Fixed height of 250px across all devices */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block;
+}
+
+.leadNewsBox {
+    max-height: 290px;
+    min-width: 100%;
+    min-height: 290px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+
+}
+
+.leadNewsBox img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.mostRecentNewsBox {
+    max-height: 100px;
+    min-height: 90px;
+    font-size: 13px;
+}
+
+.mostRecentNewsBox img {
+    max-height: 95px;
+    min-height: 90px;
+    width: 100%;
+}
+
+.categoryNewBox {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.categoryNewBox img {
+    /* max-height: 230px; */
+    height: 230px;
+    width: 100%;
+}
+
+.categorySingleNewsBox {
+    max-height: 100px;
+    min-height: 90px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.categorySingleNewsBox img {
+    max-height: 98px;
+    min-height: 95px;
+}
+
+.heading-headline-heading {
+    overflow: hidden;
+    height: 47px;
+    background: #178e44;
+    border-bottom: 4px solid #e74c4f;
+    position: relative;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.heading-headline-heading a {
+    color: #fff;
+    display: inline-block;
+    padding: 6px 45px 6px 15px;
+    font-size: 24px;
+    margin: 0;
+}
+
+.heading-headline-heading span {
+    position: relative;
+}
+
+.heading-style-heading:after {
+    background: #fff;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: -335px;
+    top: -35px;
+    height: 48px;
+    bottom: 0;
+    -webkit-transform: skewX(45deg);
+    -ms-transform: skewX(45deg);
+    transform: skewX(45deg);
+    /* z-index: -200; */
+}
+
+.sportsMainBox {
+    max-height: 510px;
+    min-height: 510px;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.sportsMainBox img {
+    max-height: 255px;
+    min-height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sportsSubBox {
+    width: 100%;
+    max-height: 255px;
+    min-height: 240px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.sportsSubBox img {
+    width: 100%;
+    max-height: 185px;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.threeColbox {
+    width: 100%;
+    max-height: 255px;
+    min-height: 240px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.threeColbox img {
+    width: 100%;
+    min-height: 150px;
+    overflow: hidden;
+}
+
+.verticalNewBox {
+    width: 100%;
+    max-height: 120px;
+    min-height: 100px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.verticalNewBox img {
+    width: 100%;
+    max-height: 110px;
+    min-height: 100px;
+}
+
+.rectaboxadd {
+    width: 100%;
+    height: 100%;
+}
+
+.rectaboxadd img {
+    width: 100%;
+    min-height: 440px;
+    max-height: 100%;
+}
+
+.overLayNewBox {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-size: 10px;
+}
+
+.todayPaper {
+    min-height: 300px;
+    max-height: 650px;
+    /* background-color: white; */
+}
+
+.carousel-item {
+    overflow: hidden;
+}
+
+.carousel-item img {
+    max-height: 600px;
+    min-height: 600px;
+}
+
+.sliderMobile {
+    overflow: hidden;
+}
+
+.sliderMobile img {
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.menuPostDetail {
+    height: 100%;
+    width: 100%;
+    font-size: 13px;
+}
+
+.menuPostDetail img {
+    width: 100%;
+    min-height: 250px;
+    max-height: 350px;
+}
+
+.menusidePostDetail {
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+}
+
+.menusidePostDetail img {
+    width: 100%;
+    min-height: 123px;
+    max-height: 175px;
+}
+
+.verticalAllMenuNewBox {
+    max-height: 120px;
+    width: 100%;
+    min-height: 100px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.verticalAllMenuNewBox img {
+    max-height: 110px;
+    min-height: 100px;
+    width: 100%;
+}
+
+.galaryBox {
+    height: 260px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.overlayGallery {
+    max-height: 250px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 10px;
+}
+
+.googleAdd {
+    min-height: 150px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid burlywood;
+}
