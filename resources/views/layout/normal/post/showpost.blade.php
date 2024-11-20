@@ -50,7 +50,11 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-3 mb-2">
                 <a href="{{ route('home.newsWithSlug', [$postValue->id, $postValue->post->slug]) }}" class="hvr-bounce-out">
                     <div class="card">
-                        <img src="{{ url($postValue->post->imgloc) }}" class="card-img-top" alt="news-picture">
+                    @if ($postValue->post->hasMedia('postpic'))
+                        <img src="{{ $postValue->post->getFirstMediaUrl('postpic', 'webp_format') }}" alt="news-picture" class="card-img-top" />
+                    @else
+                        <img src="{{ url($postValue->post->imgloc) }}" class="card-img-top" alt="news-picture" >
+                    @endif
                         <div class="card-body">
                             <p class="card-text text-dark">{{ Str::limit($postValue->post->head, 70) }}</p>
                         </div>
